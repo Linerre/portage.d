@@ -1,0 +1,27 @@
+# stay with rust-1.52.1 until a newer version becomes stable
+#>=dev-lang/rust-1.52.1
+#<dev-lang/rust-1.52.1
+
+# stay with dev-util/ninja from upgrading
+#dev-util/ninja
+
+# mask clang, llvm and friends from upgrading
+#sys-devel/clang
+#sys-devel/llvm
+#sys-libs/libcxx
+#sys-libs/libcxxabi
+#sys-libs/compiler-rt
+#sys-libs/compiler-rt-sanitizers
+#sys-libs/llvm-libunwind
+#sys-devel/lld
+sys-libs/libunwind
+
+# mask firefox-bin from upgrading
+# www-client/firefox-bin
+#>=dev-lang/spidermonkey-78.10.1
+
+# misc
+#
+# Mask a whole ebuild repository
+*/*::gentoo-zh
+*/*::tearless

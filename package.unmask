@@ -1,0 +1,27 @@
+# gentoo
+
+
+
+
+
+
+
+
+# gentoo-zh
+x11-libs/xcb-imdkit::gentoo-zh
+sys-process/btop::gentoo-zh
+x11-terms/contour::gentoo-zh
+app-i18n/fcitx5::gentoo-zh
+app-i18n/fcitx5-skk::gentoo-zh
+app-i18n/fcitx5-rime::gentoo-zh
+app-i18n/fcitx5-qt::gentoo-zh
+app-i18n/fcitx5-hangul::gentoo-zh
+app-i18n/fcitx5-configtool::gentoo-zh
+app-i18n/fcitx5-chinese-addons::gentoo-zh
+
+
+# tearless
+x11-wm/dwm::tearless
+x11-terms/st:tearlss
+x11-misc/dwmblocks::tearless
+

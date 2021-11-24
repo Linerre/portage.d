@@ -1,0 +1,12 @@
+diff --git a/config.def.h b/config.def.new.h
+index cf93307..d5609ec 100644
+--- a/config.def.h
++++ b/config.def.new.h
+@@ -212,6 +212,7 @@ static Shortcut shortcuts[] = {
+ 	{ MODKEY,               XK_l,           copyurl,        {.i =  0} },
+ 	{ ShiftMask,            XK_Page_Up,     kscrollup,      {.i = -1} },
+ 	{ ShiftMask,            XK_Page_Down,   kscrolldown,    {.i = -1} },
++	{ MODKEY,               XK_o,           opencopied,     {.v = "xdg-open"} },
+ };
+ 
+ /*

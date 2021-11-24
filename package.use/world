@@ -1,0 +1,56 @@
+# python targets setting
+*/* PYTHON_TARGETS: -* python3_9 python3_10
+*/* PYTHON_SINGLE_TARGET: -* python3_9
+
+# add lua5-3, keep profile defaults (5-1), resulting in LUA_TARGETS="lua5-1 lua5-3"
+*/* LUA_TARGETS: lua5-3
+# change single target default, can only have one so remove current value with -*
+*/* LUA_SINGLE_TARGET: -* lua5-3
+
+# package only supports single target lua5-1
+app-editors/vim LUA_SINGLE_TARGET: -* lua5-1
+media-video/mpv LUA_SINGLE_TARGET: -* lua5-1
+
+# remove 32 from ABI_X86 to resolve "clang_rt incompatible with 32-i386"
+*/* ABI_X86: -* 64
+
+media-gfx/feh xinerama
+# required by x11-libs/pango-1.48.7::gentoo
+# required by x11-libs/gtk+-3.24.29::gentoo
+# required by app-text/zathura-0.4.7::gentoo
+# required by @selected
+# required by @world (argument)
+>=media-libs/freetype-2.10.4 harfbuzz
+# required by app-editors/nano-5.8-r1::gentoo[-static]
+# required by @selected
+# required by @world (argument)
+>=sys-libs/ncurses-6.2_p20210123 static-libs
+media-gfx/imagemagick jpeg perl postscript svg webp xml
+dev-util/cmake emacs
+# required by app-editors/emacs-27.2-r4::gentoo
+# required by @selected
+# required by @world (argument)
+>=app-emacs/emacs-common-1.8 gui
+# required by net-print/cups-filters-1.28.10::gentoo[postscript]
+# required by net-print/cups-2.3.3_p2-r2::gentoo
+# required by dev-java/openjdk-11.0.12_p7::gentoo
+# required by dev-java/openjdk (argument)
+>=app-text/ghostscript-gpl-9.54.0-r1 cups
+# required by x11-misc/xdg-utils-1.1.3_p20200220-r5::gentoo
+# required by net-print/cups-2.3.3_p2-r2::gentoo[X]
+# required by app-text/ghostscript-gpl-9.54.0-r1::gentoo[cups]
+# required by net-print/cups-filters-1.28.10::gentoo[postscript]
+>=app-text/xmlto-0.0.28-r6 text
+net-misc/curl ssh
+net-libs/nodejs inspector npm system-ssl
+# required by app-i18n/fcitx5-skk-5.0.7::gentoo-zh
+# required by fcitx5-skk (argument)
+>=app-i18n/fcitx5-qt-5.0.6 qt5
+app-arch/p7zip rar
+# required by media-gfx/blender-2.93.2::gentoo[ffmpeg]
+# required by blender (argument)
+>=media-video/ffmpeg-4.4-r1 vpx vorbis theora mp3 opus x264 xvid jpeg2k
+app-text/zathura sqlite
+# required by www-apache/mod_security-2.9.3-r100::gentoo
+# required by www-apache/modsecurity-crs-3.3.0::gentoo
+>=dev-libs/apr-util-1.6.1-r7 openssl

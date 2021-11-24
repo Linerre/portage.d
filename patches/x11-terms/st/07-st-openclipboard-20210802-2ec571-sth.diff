@@ -1,0 +1,12 @@
+diff --git a/st.h b/st.new.h
+index 8d3ea3b..edb3e01 100644
+--- a/st.h
++++ b/st.new.h
+@@ -83,6 +83,7 @@ void draw(void);
+ 
+ void kscrolldown(const Arg *);
+ void kscrollup(const Arg *);
++void opencopied(const Arg *);
+ void printscreen(const Arg *);
+ void printsel(const Arg *);
+ void sendbreak(const Arg *);

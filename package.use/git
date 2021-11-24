@@ -1,0 +1,4 @@
+dev-vcs/git doc emacs highlight subversion
+# required by dev-vcs/git-2.31.1::gentoo[perl,subversion]
+# required by dev-vcs/git (argument)
+>=dev-vcs/subversion-1.14.1 perl

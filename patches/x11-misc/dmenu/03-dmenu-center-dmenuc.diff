@@ -1,0 +1,13 @@
+diff --git a/dmenu.c b/dmenu.new.c
+index 5ec1542..bb85892 100644
+--- a/dmenu.c
++++ b/dmenu.new.c
+@@ -864,6 +864,8 @@ main(int argc, char *argv[])
+ 			topbar = 0;
+ 		else if (!strcmp(argv[i], "-f"))   /* grabs keyboard before reading stdin */
+ 			fast = 1;
++		else if (!strcmp(argv[i], "-c"))   /* centers dmenu on screen */
++			centered = 1;
+ 		else if (!strcmp(argv[i], "-F"))   /* grabs keyboard before reading stdin */
+ 			fuzzy = 0;
+ 		else if (!strcmp(argv[i], "-i")) { /* case-insensitive item matching */

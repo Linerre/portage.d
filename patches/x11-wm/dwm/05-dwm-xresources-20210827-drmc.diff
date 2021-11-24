@@ -1,0 +1,13 @@
+diff --git a/drw.c b/drw.c
+index c202cb3..843dc25 100644
+--- a/drw.c
++++ b/drw.c
+@@ -211,7 +211,7 @@ drw_clr_create(Drw *drw, Clr *dest, const char *clrname, unsigned int alpha)
+ /* Wrapper to create color schemes. The caller has to call free(3) on the
+  * returned color scheme when done using it. */
+ Clr *
+-drw_scm_create(Drw *drw, const char *clrnames[], const unsigned int alphas[], size_t clrcount)
++drw_scm_create(Drw *drw, char *clrnames[], const unsigned int alphas[], size_t clrcount)
+ {
+ 	size_t i;
+ 	Clr *ret;

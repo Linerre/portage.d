@@ -1,0 +1,2 @@
+# use rust bin as virutal rust for now
+virtual/rust    dev-lang/rust-bin
