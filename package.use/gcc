@@ -1,1 +1,3 @@
 sys-devel/gcc jit valgrind zstd
+sys-devel/gdb lzma multitarget source-highlight xml
+dev-util/ctags json xml yaml
