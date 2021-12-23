@@ -8,6 +8,7 @@
 
 
 # gentoo-zh
+media-fonts/lxgwwenkai::gentoo-zh
 x11-libs/xcb-imdkit::gentoo-zh
 sys-process/btop::gentoo-zh
 x11-terms/contour::gentoo-zh
@@ -24,4 +25,3 @@ app-i18n/fcitx5-chinese-addons::gentoo-zh
 x11-wm/dwm::tearless
 x11-terms/st:tearlss
 x11-misc/dwmblocks::tearless
-
