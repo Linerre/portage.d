@@ -1,2 +1,3 @@
 dev-db/postgresql icu lz4 perl python uuid xml
 dev-db/mysql cjk
+dev-db/mongodb CPU_FLAGS_X86: avx
