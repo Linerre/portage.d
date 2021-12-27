@@ -1,2 +1,4 @@
 #sys-kernel/linux-firmware savedconfig
 sys-apps/util-linux python tty-helpers udev
+app-admin/sysstat   lm-sensors
+#sys-apps/lm-sensors sensord
