@@ -25,3 +25,4 @@ sys-libs/libunwind
 # Mask a whole ebuild repository
 */*::gentoo-zh
 */*::tearless
+*/*::guru

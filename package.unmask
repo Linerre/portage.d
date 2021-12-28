@@ -25,3 +25,6 @@ app-i18n/fcitx5-chinese-addons::gentoo-zh
 x11-wm/dwm::tearless
 x11-terms/st:tearlss
 x11-misc/dwmblocks::tearless
+
+# guru
+media-libs/vips::guru
