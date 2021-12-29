@@ -1,0 +1,3 @@
+media-gfx/feh xinerama
+media-gfx/imagemagick jpeg lzma perl postscript svg tiff webp xml
+media-libs/vips exif jpeg pdf png svg tiff

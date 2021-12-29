@@ -2,3 +2,4 @@
 sys-apps/util-linux python tty-helpers udev
 app-admin/sysstat   lm-sensors
 #sys-apps/lm-sensors sensord
+app-arch/p7zip rar
