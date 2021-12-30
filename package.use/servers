@@ -1,2 +1,5 @@
 www-servers/apache threads APACHE2_MPMS: worker
 www-apache/mod_security fuzzyhash jit json lua
+
+# server-side langs
+dev-lang/php apache2 cgi cjk curl gd jit mysql mysqli postgrep sqlite threads zip

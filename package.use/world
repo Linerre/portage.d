@@ -50,3 +50,6 @@ media-video/mpv LUA_SINGLE_TARGET: -* lua5-1
 # required by media-libs/vips-8.10.6::guru[pdf]
 # required by media-libs/vips (argument)
 >=app-text/poppler-21.12.0 cairo
+# required by dev-lang/php-8.1.0::gentoo
+# required by dev-lang/php (argument)
+>=app-eselect/eselect-php-0.9.8 apache2
