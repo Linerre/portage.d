@@ -19,7 +19,7 @@ app-i18n/fcitx5-qt::gentoo-zh
 app-i18n/fcitx5-hangul::gentoo-zh
 app-i18n/fcitx5-configtool::gentoo-zh
 app-i18n/fcitx5-chinese-addons::gentoo-zh
-
+dev-cpp/tgbot-cpp::gentoo-zh
 
 # tearless
 x11-wm/dwm::tearless
