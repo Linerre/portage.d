@@ -1,3 +1,7 @@
+#
+# Server-side packages and their respective confis
+# gwww-servers/* and more
+
 www-servers/apache threads APACHE2_MPMS: worker
 www-apache/mod_security fuzzyhash jit json lua
 
