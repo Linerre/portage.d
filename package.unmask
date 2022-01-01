@@ -28,3 +28,4 @@ x11-misc/dwmblocks::tearless
 
 # guru
 media-libs/vips::guru
+dev-util/tokei::guru
