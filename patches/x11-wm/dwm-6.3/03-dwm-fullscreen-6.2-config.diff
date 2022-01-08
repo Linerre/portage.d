@@ -1,0 +1,12 @@
+diff --git a/config.def.h b/config.def.h
+index 1b9c512..b0cc9d1 100644
+--- a/config.def.h
++++ b/config.def.h
+@@ -89,6 +89,7 @@ static Key keys[] = {
+ 	{ MODKEY,                       XK_m,      setlayout,      {.v = &layouts[2]} },
+ 	{ MODKEY,                       XK_r,      setlayout,      {.v = &layouts[3]} },
+ 	{ MODKEY|ShiftMask,             XK_r,      setlayout,      {.v = &layouts[4]} },
++	{ MODKEY|ShiftMask,             XK_f,      fullscreen,     {0} },
+ 	{ MODKEY,                       XK_space,  setlayout,      {0} },
+ 	{ MODKEY|ShiftMask,             XK_space,  togglefloating, {0} },
+ 	{ MODKEY,                       XK_0,      view,           {.ui = ~0 } },
