@@ -1,0 +1,17 @@
+diff --git a/x.c b/x.c
+index fb4818f..2b60f7b 100644
+--- a/x.c
++++ b/x.c
+@@ -1216,10 +1216,11 @@ void
+ xinit(int cols, int rows)
+ {
+ 	XGCValues gcvalues;
+-	Cursor cursor;
++	/* Cursor cursor; */
+ 	Window parent;
+ 	pid_t thispid = getpid();
+ 	XColor xmousefg, xmousebg;
++	Pixmap blankpm;
+ 
+ 	if (!(xw.dpy = XOpenDisplay(NULL)))
+ 		die("can't open display\n");
