@@ -9,6 +9,7 @@
 
 # gentoo-zh
 media-fonts/lxgwwenkai::gentoo-zh
+media-fonts/iansui::gentoo-zh
 x11-libs/xcb-imdkit::gentoo-zh
 sys-process/btop::gentoo-zh
 x11-terms/contour::gentoo-zh

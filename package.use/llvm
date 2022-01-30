@@ -1,4 +1,4 @@
-sys-devel/clang doc default-compiler-rt default-lld llvm-libunwind xml
+sys-devel/clang doc default-compiler-rt default-lld xml
 sys-devel/llvm -gold doc xml
-sys-libs/libcxx llvm-libunwind
-sys-libs/libcxxabi llvm-libunwind
+sys-libs/libcxx
+sys-libs/libcxxabi
