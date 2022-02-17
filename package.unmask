@@ -25,6 +25,7 @@ dev-cpp/tgbot-cpp::gentoo-zh
 # tearless
 x11-misc/dwmblocks::tearless
 www-apache/mod_wsgi::tearless
+media-fonts/roboto-mono::tearless
 
 # guru
 media-libs/vips::guru
