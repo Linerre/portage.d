@@ -30,3 +30,4 @@ media-fonts/roboto-mono::tearless
 # guru
 media-libs/vips::guru
 dev-util/tokei::guru
+dev-util/rust-analyzer::guru
