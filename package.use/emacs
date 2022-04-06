@@ -1,1 +1,1 @@
-app-editors/emacs gui json libxml2 xft
+app-editors/emacs cairo gui jit json libxml2 svg tiff xft xwidgets
