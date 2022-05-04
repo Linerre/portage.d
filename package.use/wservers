@@ -7,3 +7,6 @@ www-apache/mod_security fuzzyhash jit json lua
 
 # server-side langs
 dev-lang/php apache2 cgi cjk curl gd jit mysql mysqli postgrep sqlite threads zip
+# required by app-portage/pfl-3.2-r2::gentoo[network-cron]
+# required by app-portage/pfl (argument)
+>=sys-apps/util-linux-2.38 caps
