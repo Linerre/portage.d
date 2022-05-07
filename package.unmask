@@ -30,6 +30,7 @@ www-apache/mod_wsgi::tearless
 media-fonts/roboto-mono::tearless
 
 # guru
+app-misc/lf::guru
 media-libs/vips::guru
 dev-util/tokei::guru
 dev-util/rust-analyzer::guru
