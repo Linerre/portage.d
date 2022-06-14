@@ -15,13 +15,13 @@ media-fonts/tiejieli::gentoo-zh
 x11-libs/xcb-imdkit::gentoo-zh
 sys-process/btop::gentoo-zh
 x11-terms/contour::gentoo-zh
-app-i18n/fcitx5::gentoo-zh
-app-i18n/fcitx5-skk::gentoo-zh
-app-i18n/fcitx5-rime::gentoo-zh
-app-i18n/fcitx5-qt::gentoo-zh
-app-i18n/fcitx5-hangul::gentoo-zh
-app-i18n/fcitx5-configtool::gentoo-zh
-app-i18n/fcitx5-chinese-addons::gentoo-zh
+app-i18n/fcitx::gentoo-zh
+app-i18n/fcitx-skk::gentoo-zh
+app-i18n/fcitx-rime::gentoo-zh
+app-i18n/fcitx-qt::gentoo-zh
+app-i18n/fcitx-hangul::gentoo-zh
+app-i18n/fcitx-configtool::gentoo-zh
+app-i18n/fcitx-chinese-addons::gentoo-zh
 dev-cpp/tgbot-cpp::gentoo-zh
 
 # tearless
