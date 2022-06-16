@@ -10,3 +10,6 @@ dev-lang/php apache2 cgi cjk curl gd jit mysql mysqli postgrep sqlite threads zi
 # required by app-portage/pfl-3.2-r2::gentoo[network-cron]
 # required by app-portage/pfl (argument)
 >=sys-apps/util-linux-2.38 caps
+# required by net-vpn/openconnect-9.01::gentoo[pskc]
+# required by openconnect (argument)
+>=sys-auth/oath-toolkit-2.6.2-r2 pskc
