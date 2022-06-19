@@ -1,1 +1,2 @@
 dev-libs/jemalloc stats xmalloc
+dev-libs/nss cacert utils
