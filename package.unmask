@@ -8,13 +8,6 @@
 
 
 # gentoo-zh
-media-fonts/lxgwwenkai::gentoo-zh
-media-fonts/iansui::gentoo-zh
-media-fonts/zhudou::gentoo-zh
-media-fonts/tiejieli::gentoo-zh
-x11-libs/xcb-imdkit::gentoo-zh
-sys-process/btop::gentoo-zh
-x11-terms/contour::gentoo-zh
 app-i18n/fcitx::gentoo-zh
 app-i18n/fcitx-skk::gentoo-zh
 app-i18n/fcitx-rime::gentoo-zh
@@ -23,6 +16,15 @@ app-i18n/fcitx-hangul::gentoo-zh
 app-i18n/fcitx-configtool::gentoo-zh
 app-i18n/fcitx-chinese-addons::gentoo-zh
 dev-cpp/tgbot-cpp::gentoo-zh
+media-fonts/lxgwwenkai::gentoo-zh
+media-fonts/iansui::gentoo-zh
+media-fonts/zhudou::gentoo-zh
+media-fonts/tiejieli::gentoo-zh
+net-proxy/clash::gentoo-zh
+net-proxy/clash-for-windows-bin::gentoo-zh
+sys-process/btop::gentoo-zh
+x11-libs/xcb-imdkit::gentoo-zh
+x11-terms/contour::gentoo-zh
 
 # tearless
 x11-misc/dwmblocks::tearless
