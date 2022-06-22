@@ -3,3 +3,9 @@
 # www-client/*
 
 www-client/elinks ftp gopher guile lua perl xml zstd LUA_TARGETS: -* lua5-1 LUA_SINGLE_TARGET: lua5-1
+# required by www-client/chromium-bin-102.0.5005.115::gentoo
+# required by www-client/chromium-bin (argument)
+>=dev-libs/libxml2-2.9.14-r1 icu
+# required by www-client/chromium-bin-102.0.5005.115::gentoo
+# required by www-client/chromium-bin (argument)
+>=sys-libs/zlib-1.2.12-r2 minizip
