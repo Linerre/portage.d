@@ -6,12 +6,6 @@
  * font: see http://freedesktop.org/software/fontconfig/fontconfig-user.html
  */
 static char *font = "Consolas:style=regular:pixelsize=24:antialias=true:autohint=true";
-/* Spare fonts */
-static char *font2[] = {
-   /* "Inconsolata for Powerline:pixelsize=12:antialias=true:autohint=true", */
-   /* "Hack Nerd Font Mono:pixelsize=11:antialias=true:autohint=true", */
-};
-
 static int borderpx = 2;
 
 /*
@@ -99,8 +93,6 @@ char *termname = "st-256color";
  */
 unsigned int tabspaces = 8;
 
-/* bg opacity */
-float alpha = 0.9;
 
 /* Terminal colors (16 first used in escape sequence) */
 static const char *colorname[] = {
@@ -127,22 +119,20 @@ static const char *colorname[] = {
 	[255] = 0,
 
 	/* more colors can be added after 255 to use with DefaultXX */
-	"#cccccc",  /* 256 -> rev cursor */
-	"#555555",  /* 257 -> cursor */
-        "#f5f6f5",  /* 258 -> bg */
+	"#555555",  /* 256 -> cursor */
+	"#cccccc",  /* 257 -> rev cursor */
+	"black",    /* 258 -> fg */
+  	"#f5f6f5",  /* 259 -> bg */
 };
 
 /*
  * Default colors (colorname index)
- *  foreground, background, cursor, reverse cursor
- * foreground, background, cursor
+ * foreground, background, cursor, reverse cursor
  */
-/* unsigned int defaultbg = 0; */
-/* alpha patch */
-unsigned int defaultfg = 0;
-unsigned int defaultbg = 258;
-static unsigned int defaultcs = 257;
-static unsigned int defaultrcs = 256;
+unsigned int defaultfg = 258;
+unsigned int defaultbg = 259;
+unsigned int defaultcs = 256;
+static unsigned int defaultrcs = 257;
 
 /*
  * Default shape of cursor
@@ -157,7 +147,7 @@ static unsigned int cursorshape = 2;
  * Default columns and rows numbers
  */
 
-static unsigned int cols = 90;
+static unsigned int cols = 80;
 static unsigned int rows = 24;
 
 /*
@@ -180,7 +170,6 @@ static unsigned int defaultattr = 11;
  */
 static uint forcemousemod = ShiftMask;
 
-
 /*
  * Internal mouse shortcuts.
  * Beware that overloading Button1 will disable the selection.
@@ -195,8 +184,7 @@ static MouseShortcut mshortcuts[] = {
 };
 
 /* Internal keyboard shortcuts. */
-#define MODKEY Mod4Mask
-/* #define MODKEY Mod1Mask */
+#define MODKEY Mod1Mask
 #define TERMMOD (ControlMask|ShiftMask)
 
 static Shortcut shortcuts[] = {
@@ -213,13 +201,8 @@ static Shortcut shortcuts[] = {
 	{ TERMMOD,              XK_Y,           selpaste,       {.i =  0} },
 	{ ShiftMask,            XK_Insert,      selpaste,       {.i =  0} },
 	{ TERMMOD,              XK_Num_Lock,    numlock,        {.i =  0} },
-        /* copy url */
-        { MODKEY,               XK_c,           copyurl,        {.i =  0} },
-        /* scrollback */
-        { ShiftMask,            XK_Page_Up,     kscrollup,      {.i = -1} },
-        { ShiftMask,            XK_Page_Down,   kscrolldown,    {.i = -1} },
-        /* open url */
-        { MODKEY,               XK_o,           opencopied,     {.v = "xdg-open"} },
+	{ShiftMask,             XK_Page_Up,     kscrollup,      {.i = -1} },
+  	{ShiftMask,             XK_Page_Down,   kscrolldown,    {.i = -1} },
 };
 
 /*
