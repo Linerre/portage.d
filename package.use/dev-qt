@@ -1,2 +1,11 @@
 # required by dev-qt/qtwayland-5.15.4::gentoo
 >=dev-qt/qtgui-5.15.4-r2 egl
+# required by kde-frameworks/kcoreaddons-5.95.0::gentoo
+# required by kde-frameworks/kconfigwidgets-5.95.0::gentoo
+# required by kde-frameworks/kiconthemes-5.95.0::gentoo
+# required by kde-plasma/polkit-kde-agent-5.25.1::gentoo
+# required by kde-frameworks/kauth-5.95.0::gentoo[policykit]
+# required by kde-frameworks/kio-5.95.0::gentoo
+# required by kde-frameworks/kinit-5.95.0::gentoo
+# required by kde-frameworks/kded-5.95.0::gentoo
+>=dev-qt/qtcore-5.15.5 icu
