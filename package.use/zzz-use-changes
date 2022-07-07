@@ -1,0 +1,9 @@
+# required by www-client/chromium-bin-102.0.5005.115::gentoo
+# required by www-client/chromium-bin (argument)
+>=dev-libs/libxml2-2.9.14-r1 icu
+# required by www-client/chromium-bin-102.0.5005.115::gentoo
+# required by www-client/chromium-bin (argument)
+>=sys-libs/zlib-1.2.12-r2 minizip
+# required by app-admin/pass-1.7.4-r2::gentoo
+# required by app-admin/pass (argument)
+>=media-gfx/qrencode-4.1.1 png
