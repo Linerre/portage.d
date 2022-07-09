@@ -1,2 +1,2 @@
 net-mail/isync sasl
-net-mail/notmuch emacs
+net-mail/notmuch crypt emacs
