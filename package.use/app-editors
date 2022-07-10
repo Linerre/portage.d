@@ -1,2 +1,2 @@
 # USE xft makes sure emacs can find x fonts!
-app-editors/emacs cairo gui harfbuzz imagemagick jit jpeg json libxml2 png source svg tiff xft xwidgets
+app-editors/emacs cairo gui gsettings gzip-el harfbuzz imagemagick jit jpeg json libxml2 png source svg tiff xft xwidgets
