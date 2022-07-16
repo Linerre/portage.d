@@ -7,3 +7,9 @@
 # required by app-admin/pass-1.7.4-r2::gentoo
 # required by app-admin/pass (argument)
 >=media-gfx/qrencode-4.1.1 png
+# required by app-text/texlive-core-2021-r1::gentoo
+# required by sys-libs/libunwind-1.6.2-r1::gentoo[doc]
+# required by sys-libs/libcxxabi-14.0.6::gentoo[libunwind]
+# required by @selected
+# required by @world (argument)
+>=media-libs/harfbuzz-5.1.0 icu
