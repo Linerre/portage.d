@@ -1,1 +1,0 @@
-app-editors/vim cscope lua terminal LUA_TARGETS: -* lua5-1 LUA_SINGLE_TARGET: lua5-1
