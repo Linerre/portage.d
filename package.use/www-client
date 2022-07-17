@@ -2,5 +2,3 @@
 # Client-side packages and their respective config
 # www-client/*
 
-www-client/elinks ftp gopher guile lua perl xml zstd LUA_TARGETS: -* lua5-1 LUA_SINGLE_TARGET: lua5-1
-
