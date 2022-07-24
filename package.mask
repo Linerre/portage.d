@@ -5,9 +5,8 @@ sys-libs/llvm-libunwind
 
 # misc
 # Not sure why but go seems to insist on using single thread
-#>=dev-lang/go-1.18
 
 # Mask a whole ebuild repository
 */*::gentoo-zh
-*/*::tearless
+*/*::interlay
 */*::guru

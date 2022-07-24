@@ -30,10 +30,10 @@ sys-process/btop::gentoo-zh
 x11-libs/xcb-imdkit::gentoo-zh
 x11-terms/contour::gentoo-zh
 
-# tearless
-x11-misc/dwmblocks::tearless
-www-apache/mod_wsgi::tearless
-media-fonts/roboto-mono::tearless
+# interlay
+x11-misc/dwmblocks::interlay
+media-fonts/roboto-mono::interlay
+media-fonts/ibm-plex::interlay
 
 # guru
 app-misc/lf::guru
