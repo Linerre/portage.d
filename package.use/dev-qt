@@ -9,3 +9,4 @@
 # required by kde-frameworks/kinit-5.95.0::gentoo
 # required by kde-frameworks/kded-5.95.0::gentoo
 >=dev-qt/qtcore-5.15.5 icu
+dev-qt/qtsql postgres
