@@ -1,1 +1,3 @@
 media-libs/freeimage jpeg jpeg2k png tiff webp
+media-libs/vips exif jpeg pdf png svg tiff
+
