@@ -31,6 +31,7 @@ x11-libs/xcb-imdkit::gentoo-zh
 x11-terms/contour::gentoo-zh
 
 # interlay
+app-text/sioyek::interlay
 x11-misc/dwmblocks::interlay
 media-fonts/roboto-mono::interlay
 media-fonts/ibm-plex::interlay
