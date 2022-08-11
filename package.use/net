@@ -1,3 +1,0 @@
-net-misc/curl ssh
-net-libs/nodejs inspector npm system-ssl
-net-analyzer/wireshark LUA_SINGLE_TARGET: -* lua5_1
