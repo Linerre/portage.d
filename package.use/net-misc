@@ -1,2 +1,2 @@
-net-misc/curl ssh
+net-misc/curl hsts idn ssh telnet
 net-misc/networkmanager dhcpcd syslog policykit

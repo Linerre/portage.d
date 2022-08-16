@@ -32,9 +32,10 @@ x11-terms/contour::gentoo-zh
 
 # interlay
 app-text/sioyek::interlay
-x11-misc/dwmblocks::interlay
+dev-util/direnv::interlay
 media-fonts/roboto-mono::interlay
 media-fonts/ibm-plex::interlay
+x11-misc/dwmblocks::interlay
 
 # guru
 app-misc/lf::guru
