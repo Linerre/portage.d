@@ -20,25 +20,32 @@ app-i18n/fcitx-skk::gentoo-zh
 app-i18n/libime::gentoo-zh
 
 dev-cpp/tgbot-cpp::gentoo-zh
-media-fonts/lxgwwenkai::gentoo-zh
+
+# python
+dev-python/nvchecker::gentoo-zh
+dev-python/structlog::gentoo-zh
+
+dev-util/rust-analyzer::gentoo-zh
+
+# fonts
 media-fonts/iansui::gentoo-zh
 media-fonts/zhudou::gentoo-zh
 media-fonts/tiejieli::gentoo-zh
+
+# proxy
 net-proxy/clash::gentoo-zh
 net-proxy/clash-for-windows-bin::gentoo-zh
 sys-process/btop::gentoo-zh
 x11-libs/xcb-imdkit::gentoo-zh
-x11-terms/contour::gentoo-zh
 
 # interlay
 app-text/sioyek::interlay
 dev-util/direnv::interlay
 media-fonts/roboto-mono::interlay
 media-fonts/ibm-plex::interlay
-x11-misc/dwmblocks::interlay
 
 # guru
 app-misc/lf::guru
 media-libs/vips::guru
 dev-util/tokei::guru
-dev-util/rust-analyzer::guru
+
