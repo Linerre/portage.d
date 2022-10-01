@@ -25,8 +25,6 @@ dev-cpp/tgbot-cpp::gentoo-zh
 dev-python/nvchecker::gentoo-zh
 dev-python/structlog::gentoo-zh
 
-dev-util/rust-analyzer::gentoo-zh
-
 # fonts
 media-fonts/iansui::gentoo-zh
 media-fonts/zhudou::gentoo-zh
@@ -41,6 +39,7 @@ x11-libs/xcb-imdkit::gentoo-zh
 # interlay
 app-text/sioyek::interlay
 dev-util/direnv::interlay
+dev-util/rust-analyzer::interlay
 media-fonts/roboto-mono::interlay
 media-fonts/ibm-plex::interlay
 
