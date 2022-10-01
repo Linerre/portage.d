@@ -8,5 +8,4 @@ dev-lang/go
 
 # Mask a whole ebuild repository
 */*::gentoo-zh
-*/*::interlay
 */*::guru

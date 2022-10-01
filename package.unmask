@@ -36,13 +36,6 @@ net-proxy/clash-for-windows-bin::gentoo-zh
 sys-process/btop::gentoo-zh
 x11-libs/xcb-imdkit::gentoo-zh
 
-# interlay
-app-text/sioyek::interlay
-dev-util/direnv::interlay
-dev-util/rust-analyzer::interlay
-media-fonts/roboto-mono::interlay
-media-fonts/ibm-plex::interlay
-
 # guru
 app-misc/lf::guru
 media-libs/vips::guru
