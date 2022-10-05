@@ -1,4 +1,4 @@
 sys-devel/clang static-analyzer
-sys-devel/clang-common default-compiler-rt default-libcxx default-lld
+sys-devel/clang-common default-compiler-rt default-lld
 sys-devel/gcc jit valgrind zstd
 sys-devel/gdb lzma multitarget source-highlight xml
