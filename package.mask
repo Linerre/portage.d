@@ -2,7 +2,7 @@
 # only one of them can be used at the same time
 sys-libs/llvm-libunwind
 #sys-libs/libunwind
-dev-lang/go
+#dev-lang/go
 # misc
 # Not sure why but go seems to insist on using single thread
 
