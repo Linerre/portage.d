@@ -189,7 +189,8 @@
 >=app-text/xmlto-0.0.28-r6 text
 # required by app-i18n/fcitx5-skk-5.0.7::gentoo-zh
 # required by fcitx5-skk (argument)
->=app-i18n/fcitx5-qt-5.0.6 qt5
+# move app-i18n/fcitx5-qt app-i18n/fcitx-qt
+>=app-i18n/fcitx-qt-5.0.6 qt5
 # required by media-gfx/blender-2.93.2::gentoo[ffmpeg]
 # required by blender (argument)
 >=media-video/ffmpeg-4.4-r1 vpx vorbis theora mp3 opus x264 xvid jpeg2k
