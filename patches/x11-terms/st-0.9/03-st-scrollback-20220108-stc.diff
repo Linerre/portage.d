@@ -1,0 +1,15 @@
+diff --git a/st.c b/st.c
+index 6b0e3e1..f3af82b 100644
+--- a/st.c
++++ b/st.c
+@@ -191,8 +191,8 @@ static void tnewline(int);
+ static void tputtab(int);
+ static void tputc(Rune);
+ static void treset(void);
+-static void tscrollup(int, int);
+-static void tscrolldown(int, int);
++static void tscrollup(int, int, int);
++static void tscrolldown(int, int, int);
+ static void tsetattr(const int *, int);
+ static void tsetchar(Rune, const Glyph *, int, int);
+ static void tsetdirt(int, int);
