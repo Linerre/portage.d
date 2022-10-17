@@ -28,7 +28,7 @@ dev-python/structlog::gentoo-zh
 # fonts
 media-fonts/iansui::gentoo-zh
 media-fonts/smiley-sans::gentoo-zh
-media-fonts/tiejieli::gentoo-zh
+media-fonts/tiejili::gentoo-zh
 media-fonts/zhudou::gentoo-zh
 
 # proxy
