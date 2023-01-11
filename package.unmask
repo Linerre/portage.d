@@ -25,6 +25,8 @@ dev-cpp/tgbot-cpp::gentoo-zh
 dev-python/nvchecker::gentoo-zh
 dev-python/structlog::gentoo-zh
 
+games-board/othello::gentoo-zh
+
 # fonts
 media-fonts/iansui::gentoo-zh
 media-fonts/lxgw-neo-xihei::gentoo-zh
