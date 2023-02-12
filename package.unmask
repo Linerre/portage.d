@@ -1,12 +1,5 @@
 # gentoo
 
-
-
-
-
-
-
-
 # gentoo-zh
 app-i18n/fcitx::gentoo-zh
 app-i18n/fcitx-chinese-addons::gentoo-zh
@@ -18,7 +11,6 @@ app-i18n/fcitx-qt::gentoo-zh
 app-i18n/fcitx-rime::gentoo-zh
 app-i18n/fcitx-skk::gentoo-zh
 app-i18n/libime::gentoo-zh
-
 dev-cpp/tgbot-cpp::gentoo-zh
 
 # python
@@ -45,3 +37,5 @@ app-misc/lf::guru
 media-libs/vips::guru
 dev-util/tokei::guru
 
+# emacs
+app-emacs/meow:interlay
