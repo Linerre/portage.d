@@ -4,3 +4,5 @@ www-client/google-chrome amd64
 
 # requreid by =app-emacs/meow-9999
 =app-emacs/meow-9999 **
+# required by =app-emacs/vundo-9999
+=app-emacs/vundo-9999 **
