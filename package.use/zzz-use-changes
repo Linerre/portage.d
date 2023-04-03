@@ -20,3 +20,14 @@
 # required by virtual/secret-service-0::gentoo
 # required by app-crypt/libsecret-0.20.5-r3::gentoo
 >=app-crypt/gcr-3.41.1 gtk
+# required by sys-devel/clang-common-15.0.7-r3::gentoo[default-compiler-rt,-llvm-libunwind]
+# required by sys-devel/clang-15.0.7-r1::gentoo
+# required by @selected
+# required by @world (argument)
+>=sys-libs/libunwind-1.6.2-r1 static-libs
+# required by sys-libs/libunwind-1.6.2-r1::gentoo[zlib]
+# required by sys-devel/clang-common-15.0.7-r3::gentoo[default-compiler-rt,-llvm-libunwind]
+# required by sys-devel/clang-15.0.7-r1::gentoo
+# required by @selected
+# required by @world (argument)
+>=sys-libs/zlib-1.2.13-r1 static-libs

@@ -1,6 +1,6 @@
 # python targets setting
 */* PYTHON_TARGETS: -* python3_10 python3_11
-*/* PYTHON_SINGLE_TARGET: -* python3_10
+*/* PYTHON_SINGLE_TARGET: -* python3_11
 
 # add lua5-3, keep profile defaults (5-1), resulting in LUA_TARGETS="lua5-1 lua5-3"
 */* LUA_TARGETS: -* lua5-3 lua5-4
@@ -55,7 +55,8 @@
 # required by virtual/ssh-0::gentoo[-minimal]
 # required by @system
 # required by @world (argument)
->=dev-python/setuptools_scm-6.0.1-r1
+# move dev-python/setuptools_scm dev-python/setuptools-scm
+>=dev-python/setuptools-scm-6.0.1-r1
 # required by dev-python/setuptools_scm-6.0.1-r1::gentoo
 # required by dev-python/setuptools-57.0.0::gentoo
 # required by dev-python/jinja-3.0.1::gentoo
