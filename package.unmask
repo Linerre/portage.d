@@ -20,11 +20,7 @@ dev-python/structlog::gentoo-zh
 games-board/othello::gentoo-zh
 
 # fonts
-media-fonts/iansui::gentoo-zh
-media-fonts/lxgw-neo-xihei::gentoo-zh
-media-fonts/smiley-sans::gentoo-zh
-media-fonts/tiejili::gentoo-zh
-media-fonts/zhudou::gentoo-zh
+media-fonts/*::gentoo-zh
 
 # proxy
 net-proxy/clash::gentoo-zh
@@ -38,5 +34,5 @@ media-libs/vips::guru
 dev-util/tokei::guru
 
 # emacs
-app-emacs/meow::interlay
-media-fonts/lxgw-marker-gothic::interlay
+*/*::interlay
+
