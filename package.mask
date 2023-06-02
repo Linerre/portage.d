@@ -2,11 +2,22 @@
 # only one of them can be used at the same time
 sys-libs/llvm-libunwind
 #sys-libs/libunwind
-#dev-lang/go
+dev-lang/go
 # misc
 # Not sure why but go seems to insist on using single thread
 
+# The following pkgs will be provided by nix, unless absolutely necessary
 >net-libs/nodejs-18.16.0
+>sys-devel/clang-16.0.3
+>sys-devel/llvm-16.0.3
+>sys-devel/llvm-common-16.0.3
+>sys-devel/clang-common-16.0.3
+>sys-devel/lld-16.0.3
+>sys-libs/libcxx-16.0.3
+>sys-libs/libcxxabi-16.0.3
+>sys-libs/compiler-rt-16.0.3
+>sys-libs/compiler-rt-sanitizers-16.0.3
+
 
 # Mask a whole ebuild repository
 */*::gentoo-zh
