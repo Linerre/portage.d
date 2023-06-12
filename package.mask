@@ -8,15 +8,17 @@ dev-lang/go
 
 # The following pkgs will be provided by nix, unless absolutely necessary
 >net-libs/nodejs-18.16.0
->sys-devel/clang-16.0.3
->sys-devel/llvm-16.0.3
->sys-devel/llvm-common-16.0.3
->sys-devel/clang-common-16.0.3
->sys-devel/lld-16.0.3
->sys-libs/libcxx-16.0.3
->sys-libs/libcxxabi-16.0.3
->sys-libs/compiler-rt-16.0.3
->sys-libs/compiler-rt-sanitizers-16.0.3
+
+# Mask clang and llvm (current 16.0.3)
+sys-devel/clang
+sys-devel/llvm
+sys-devel/llvm-common
+sys-devel/clang-common
+sys-devel/lld
+sys-libs/libcxx
+sys-libs/libcxxabi
+sys-libs/compiler-rt
+sys-libs/compiler-rt-sanitizers
 
 
 # Mask a whole ebuild repository
