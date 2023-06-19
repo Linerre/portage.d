@@ -1,15 +1,15 @@
 
-# only one of them can be used at the same time
 sys-libs/llvm-libunwind
 #sys-libs/libunwind
-dev-lang/go
-# misc
+# Only one of them can be used at the same time
+
+#dev-lang/go
 # Not sure why but go seems to insist on using single thread
 
-# The following pkgs will be provided by nix, unless absolutely necessary
 >net-libs/nodejs-18.16.0
+# No need to compile node over and again. Project-specific nodejs will be 
+# provided by nix in the future.
 
-# Mask clang and llvm (current 16.0.3)
 sys-devel/clang
 sys-devel/llvm
 sys-devel/llvm-common
@@ -19,8 +19,7 @@ sys-libs/libcxx
 sys-libs/libcxxabi
 sys-libs/compiler-rt
 sys-libs/compiler-rt-sanitizers
+# Mask clang and llvm (current 16.0.3) as I do not need them to be up-to-date
 
 
-# Mask a whole ebuild repository
-*/*::gentoo-zh
 */*::guru
