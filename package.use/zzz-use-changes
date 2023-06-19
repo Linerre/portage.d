@@ -241,3 +241,10 @@
 # required by @selected
 # required by @world (argument)
 >=dev-qt/qtdeclarative-6.5.1 opengl
+# required by dev-qt/qtwayland-6.5.1-r1::gentoo
+# required by dev-qt/qtbase-6.5.1-r1::gentoo[wayland]
+# required by dev-qt/qtmultimedia-6.5.1-r1::gentoo
+# required by dev-qt/qt3d-6.5.1::gentoo
+# required by @selected
+# required by @world (argument)
+>=dev-qt/qtbase-6.5.1-r1 egl
