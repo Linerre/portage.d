@@ -248,3 +248,14 @@
 # required by @selected
 # required by @world (argument)
 >=dev-qt/qtbase-6.5.1-r1 egl
+# required by app-editors/emacs-29.1-r1::gentoo[gsettings,gui]
+# required by app-emacs/compat-29.1.4.2::gentoo
+# required by app-emacs/with-editor-3.3.0::gentoo
+# required by app-admin/pass-1.7.4-r2::gentoo[emacs]
+# required by @selected
+# required by @world (argument)
+>=app-emacs/emacs-common-1.9 gsettings
+# required by gui-wm/wayfire-0.7.5-r1::gentoo[system-wlroots]
+# required by @selected
+# required by @world (argument)
+>=gui-libs/wlroots-0.16.2-r1 x11-backend
