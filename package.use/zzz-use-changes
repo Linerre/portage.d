@@ -259,3 +259,18 @@
 # required by @selected
 # required by @world (argument)
 >=gui-libs/wlroots-0.16.2-r1 x11-backend
+# required by dev-qt/qt3d-6.5.2-r1::gentoo
+# required by @selected
+# required by @world (argument)
+>=dev-qt/qtbase-6.5.2-r1 -vulkan
+# required by dev-qt/qttools-6.5.2-r1::gentoo[widgets]
+# required by dev-qt/qttranslations-6.5.2::gentoo
+>=dev-qt/qtbase-6.5.2-r2 -opengl
+# required by dev-qt/qt3d-6.5.2-r1::gentoo
+# required by @selected
+# required by @world (argument)
+>=dev-qt/qtbase-6.5.2-r2 opengl
+# required by dev-qt/qttranslations-6.5.2::gentoo
+# required by dev-qt/qtbase-6.5.2-r2::gentoo[nls]
+# required by dev-qt/qtwayland-6.5.2-r3::gentoo
+>=dev-qt/qttools-6.5.2-r1 opengl
