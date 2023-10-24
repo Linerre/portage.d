@@ -1,25 +1,25 @@
-
-sys-libs/llvm-libunwind
 #sys-libs/libunwind
 # Only one of them can be used at the same time
+sys-libs/llvm-libunwind
 
 #dev-lang/go
 # Not sure why but go seems to insist on using single thread
-
->net-libs/nodejs-18.16.0
 # No need to compile node over and again. Project-specific nodejs will be 
 # provided by nix in the future.
+>net-libs/nodejs-18.16.0
 
-sys-devel/clang
-sys-devel/llvm
-sys-devel/llvm-common
-sys-devel/clang-common
-sys-devel/lld
-sys-libs/libcxx
-sys-libs/libcxxabi
-sys-libs/compiler-rt
-sys-libs/compiler-rt-sanitizers
-# Mask clang and llvm (current 16.0.3) as I do not need them to be up-to-date
+# Mask clang and llvm (above 17.0.0) as I do not need them to be up-to-date so frequently
+>sys-devel/clang-18.0.0
+>sys-devel/llvm-18.0.0
+>sys-devel/llvm-common-18.0.0
+>sys-devel/clang-common-18.0.0
+>sys-devel/lld-18.0.0
+>sys-libs/libcxx-18.0.0
+>sys-libs/libcxxabi-18.0.0
+>sys-libs/compiler-rt-18.0.0
+>sys-libs/compiler-rt-sanitizers-18.0.0
 
+# Until I fix this package
+app-text/sioyek
 
 */*::guru
