@@ -1,4 +1,4 @@
 media-gfx/feh xinerama
-media-gfx/imagemagick jpeg lzma perl postscript svg tiff webp xml
+media-gfx/imagemagick jpeg lzma perl postscript svg tiff webp xml -openmp
 media-gfx/imv gif heif icu jpeg png svg tiff
 
