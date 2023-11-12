@@ -21,13 +21,7 @@ games-board/othello::gentoo-zh
 
 # fonts
 media-fonts/*::gentoo-zh
-
-# proxy
-net-proxy/clash::gentoo-zh
-net-proxy/clash-for-windows-bin::gentoo-zh
-sys-process/btop::gentoo-zh
-x11-libs/xcb-imdkit::gentoo-zh
-*/*::gentoo-zh
+dev-python/*::gentoo-zh
 
 # guru
 app-misc/lf::guru

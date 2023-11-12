@@ -19,7 +19,10 @@ sys-libs/llvm-libunwind
 >sys-libs/compiler-rt-18.0.0
 >sys-libs/compiler-rt-sanitizers-18.0.0
 
+# upstream has been deleted by the author
+>net-proxy/clash-1.17.0::gentoo-zh
+
 # Until I fix this package
-app-text/sioyek
+app-text/sioyek::interlay
 
 */*::guru
