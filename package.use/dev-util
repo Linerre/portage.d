@@ -1,3 +1,4 @@
 dev-util/ctags json xml yaml
-dev-util/cmake emacs
+# move dev-util/cmake dev-build/cmake
+dev-build/cmake emacs
 dev-util/pkgcheck emacs
