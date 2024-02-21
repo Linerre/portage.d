@@ -274,3 +274,16 @@
 # required by dev-qt/qtbase-6.5.2-r2::gentoo[nls]
 # required by dev-qt/qtwayland-6.5.2-r3::gentoo
 >=dev-qt/qttools-6.5.2-r1 opengl
+# required by dev-python/PyQtWebEngine-5.15.6-r1::gentoo
+# required by media-sound/feeluown-3.8.15::gentoo-zh[webengine]
+# required by dev-python/fuo-netease-0.9.8::gentoo-zh
+>=dev-python/PyQt5-5.15.10-r1 gui svg opengl widgets webchannel network printsupport
+# required by dev-python/PyQtWebEngine-5.15.6-r1::gentoo
+# required by media-sound/feeluown-3.8.15::gentoo-zh[webengine]
+# required by dev-python/fuo-netease-0.9.8::gentoo-zh
+>=dev-qt/qtwebengine-5.15.12_p20231219:5 widgets
+# required by dev-qt/qtwebengine-5.15.12_p20231219::gentoo
+# required by dev-python/PyQtWebEngine-5.15.6-r1::gentoo
+# required by media-sound/feeluown-3.8.15::gentoo-zh[webengine]
+# required by dev-python/fuo-netease-0.9.8::gentoo-zh
+>=dev-qt/qtwebchannel-5.15.12:5 qml
