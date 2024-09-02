@@ -287,3 +287,25 @@
 # required by media-sound/feeluown-3.8.15::gentoo-zh[webengine]
 # required by dev-python/fuo-netease-0.9.8::gentoo-zh
 >=dev-qt/qtwebchannel-5.15.12:5 qml
+# required by app-editors/appflowy-bin-0.5.2::gentoo-zh
+# required by app-editors/appflowy-bin (argument)
+>=x11-misc/xdg-user-dirs-0.18 gtk
+# required by dev-python/conda-libmamba-solver-24.1.0-r1::gentoo-zh
+# required by dev-python/conda-24.3.0::gentoo-zh[mamba,-test]
+# required by dev-python/conda (argument)
+>=dev-util/mamba-1.5.7 python
+# required by dev-util/mamba-1.5.7::gentoo-zh
+# required by dev-python/conda-libmamba-solver-24.1.0-r1::gentoo-zh
+# required by dev-python/conda-24.3.0::gentoo-zh[mamba,-test]
+# required by dev-python/conda (argument)
+>=sys-libs/libsolv-0.7.28 conda
+# required by sys-libs/libunwind-1.8.1::gentoo[lzma]
+# required by sys-devel/clang-common-17.0.6-r1::gentoo[-llvm-libunwind,default-compiler-rt]
+# required by sys-devel/clang-17.0.6::gentoo
+# required by sys-libs/compiler-rt-sanitizers-17.0.6::gentoo[clang]
+# required by sys-devel/clang-runtime-17.0.6::gentoo[sanitize,compiler-rt]
+>=app-arch/xz-utils-5.6.1 static-libs abi_x86_32
+# required by net-libs/webkit-gtk-2.44.1::gentoo[gstreamer]
+# required by net-misc/biliup-app-0.5.2::gentoo-zh
+# required by net-misc/biliup-app (argument)
+>=media-libs/gst-plugins-base-1.22.11-r1 opengl
