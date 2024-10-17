@@ -309,3 +309,7 @@
 # required by net-misc/biliup-app-0.5.2::gentoo-zh
 # required by net-misc/biliup-app (argument)
 >=media-libs/gst-plugins-base-1.22.11-r1 opengl
+# required by app-i18n/fcitx-configtool-5.1.6-r2::gentoo
+# required by @selected
+# required by @world (argument)
+>=app-i18n/fcitx-qt-5.1.5-r2 qt6
