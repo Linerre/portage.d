@@ -1,16 +1,7 @@
 # gentoo
 
 # gentoo-zh
-app-i18n/fcitx::gentoo-zh
-app-i18n/fcitx-chinese-addons::gentoo-zh
-app-i18n/fcitx-configtool::gentoo-zh
-app-i18n/fcitx-gtk::gentoo-zh
-app-i18n/fcitx-hangul::gentoo-zh
-app-i18n/fcitx-lua::gentoo-zh
-app-i18n/fcitx-qt::gentoo-zh
-app-i18n/fcitx-rime::gentoo-zh
-app-i18n/fcitx-skk::gentoo-zh
-app-i18n/libime::gentoo-zh
+app-i18n/*
 dev-cpp/tgbot-cpp::gentoo-zh
 
 # python
