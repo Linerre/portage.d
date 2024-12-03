@@ -1,5 +1,6 @@
 # accept stable clang
-sys-devel/clang amd64
+# move sys-devel/clang llvm-core/clang
+llvm-core/clang amd64
 www-client/google-chrome amd64
 
 # requreid by =app-emacs/meow-9999

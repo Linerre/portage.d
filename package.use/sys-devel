@@ -1,5 +1,7 @@
-sys-devel/clang static-analyzer
-sys-devel/clang-common default-compiler-rt default-lld
+# move sys-devel/clang llvm-core/clang
+llvm-core/clang static-analyzer
+# move sys-devel/clang-common llvm-core/clang-common
+llvm-core/clang-common default-compiler-rt default-lld
 sys-devel/gcc jit valgrind zstd
 # move sys-devel/gdb dev-debug/gdb
 dev-debug/gdb lzma multitarget source-highlight xml

@@ -8,15 +8,24 @@ sys-libs/llvm-libunwind
 >net-libs/nodejs-18.16.0
 
 # Mask clang and llvm (above 17.0.0) as I do not need them to be up-to-date so frequently
->sys-devel/clang-19.0.0
->sys-devel/llvm-19.0.0
->sys-devel/llvm-common-19.0.0
->sys-devel/clang-common-19.0.0
->sys-devel/lld-19.0.0
->sys-libs/libcxx-19.0.0
->sys-libs/libcxxabi-19.0.0
->sys-libs/compiler-rt-19.0.0
->sys-libs/compiler-rt-sanitizers-19.0.0
+# move sys-devel/clang llvm-core/clang
+>llvm-core/clang-19.1.6
+# move sys-devel/llvm llvm-core/llvm
+>llvm-core/llvm-19.1.6
+# move sys-devel/llvm-common llvm-core/llvm-common
+>llvm-core/llvm-common-19.1.6
+# move sys-devel/clang-common llvm-core/clang-common
+>llvm-core/clang-common-19.1.6
+# move sys-devel/lld llvm-core/lld
+>llvm-core/lld-19.1.6
+# move sys-libs/libcxx llvm-runtimes/libcxx
+>llvm-runtimes/libcxx-19.1.6
+# move sys-libs/libcxxabi llvm-runtimes/libcxxabi
+>llvm-runtimes/libcxxabi-19.1.6
+# move sys-libs/compiler-rt llvm-runtimes/compiler-rt
+>llvm-runtimes/compiler-rt-19.1.6
+# move sys-libs/compiler-rt-sanitizers llvm-runtimes/compiler-rt-sanitizers
+>llvm-runtimes/compiler-rt-sanitizers-19.1.6
 
 # upstream has been deleted by the author
 >net-proxy/clash-1.17.0::gentoo-zh
