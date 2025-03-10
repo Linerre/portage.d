@@ -314,3 +314,14 @@
 # required by @selected
 # required by @world (argument)
 >=app-i18n/fcitx-qt-5.1.5-r2 qt6
+# required by dev-qt/qtwebengine-6.8.1-r1::gentoo
+# required by app-text/goldendict-25.2.0::gentoo-zh
+# required by app-text/goldendict (argument)
+>=dev-qt/qtbase-6.8.1 cups -opengl
+# required by app-text/goldendict-25.2.0::gentoo-zh[-ffmpeg]
+# required by app-text/goldendict (argument)
+>=dev-qt/qtmultimedia-6.8.1 gstreamer
+# required by dev-qt/qt3d-6.8.2::gentoo
+# required by @selected
+# required by @world (argument)
+>=dev-qt/qtbase-6.8.2 opengl
