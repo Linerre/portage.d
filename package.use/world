@@ -1,5 +1,5 @@
 # python targets setting
-*/* PYTHON_TARGETS: -* python3_12
+*/* PYTHON_TARGETS: -* python3_12 python3_13
 */* PYTHON_SINGLE_TARGET: -* python3_12
 
 # add lua5-3, keep profile defaults (5-1), resulting in LUA_TARGETS="lua5-1 lua5-3"
