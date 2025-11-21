@@ -1,0 +1,3 @@
+[submodule "goku"]
+	path = goku
+	url = https://codeberg.org/errenil/portage-goku.git
