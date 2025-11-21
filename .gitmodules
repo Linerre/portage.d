@@ -1,3 +1,6 @@
 [submodule "goku"]
 	path = goku
 	url = https://codeberg.org/errenil/portage-goku.git
+[submodule "gohan"]
+	path = gohan
+	url = https://codeberg.org/errenil/portage-gohan.git
